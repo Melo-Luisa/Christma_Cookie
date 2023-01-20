@@ -1,0 +1,18 @@
+.linha{
+    width: 1420px;
+    margin-left: 2rem;
+    border: 0.5px solid #878787;
+    
+}
+.conteudo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.nome:hover{
+    color: var(--vermelho);
+    font-size: 1.7rem;
+    border-bottom: 2px solid #7E121D;
+}

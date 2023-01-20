@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px;
+    margin-left: 2rem;
+}
+.nome_logo{
+    flex-direction: column;
+    line-height: 10px;
+    color: var(--vermelho);
+    font-size: 1.5rem;
+}
+.name_segu{
+    margin-left: 2rem;
+}
+.menu{
+    margin: 2rem;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive; 
+    font-size: 1.8rem;   
+}
+a{
+    text-decoration: none;
+    color: var(--vermelho);
+    margin: 2rem;
+}
+a:hover{
+    color: #eee;
+    transition: 0.5s;
+}
+a [type='submit']{
+    border: none;
+    background-color: #71484C;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    color: #eee;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+}
+a [type='submit']:hover{
+    background-color: #eee;
+    color: #71484C;
+    transition: 0.5s;
+    cursor: pointer;
+}
